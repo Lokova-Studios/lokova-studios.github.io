@@ -1,0 +1,17 @@
+title: "Lokova Metropolitan Docs"
+description: "Docs for the Lokova Metropolitan series"
+baseurl: "/lokova-studios.github.io"  # 你的仓库名
+url: "https://lokova-studios.github.io"
+
+# 主题（可选，GitHub默认主题很简洁）
+remote_theme: pages-themes/cayman@v0.2.0
+
+# 插件
+plugins:
+  - jekyll-relative-links
+  - jekyll-default-layout
+
+# 导航
+header_pages:
+  - index.md
+  - docs/guide.md
